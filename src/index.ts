@@ -27,3 +27,7 @@ const Person: {
   },
 };
 console.log(Person.addMoney(29000));
+
+const greetFriends = (frnd1: string, frnd2: string, frnd3: string): void =>
+  console.log(`Hi ${frnd1}, ${frnd2}, ${frnd3}`);
+greetFriends("Hasan", "Hafiz", "Rahman");
