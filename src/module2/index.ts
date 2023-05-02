@@ -78,7 +78,7 @@ const getMySpeed = (speed: unknown) => {
 getMySpeed("20kmp");
 
 // never
-function throwError(message: string): never {
-  throw new Error(message);
-}
-throwError("Ar development vallagey na");
+// function throwError(message: string): never {
+//   throw new Error(message);
+// }
+// throwError("Ar development vallagey na");
