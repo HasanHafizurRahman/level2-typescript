@@ -1,3 +1,5 @@
+# P-HERO git repo : https://github.com/Apollo-Level2-Web-Dev/typescript-module-2
+
 # if i run tsc index.ts file then it will make a equivalent javascript code.
 
 # to run typescript install typescript config file . cmd: [tsc --init]

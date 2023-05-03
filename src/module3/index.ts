@@ -80,8 +80,6 @@ interface Irollnumber {
 }
 const rollnumbers1: Irollnumber = [1, 2, 3, 3, 5]; // type interface
 
-// generic type
-
 // const roll : number[] = [1,2,3,4,5]  // OR,
 const roll: Array<number> = [1, 2, 3, 3, 5];
 
@@ -95,4 +93,18 @@ const numberNameAndRoll: Array<{ name: string; roll: number }> = [
     name: "ferot",
     roll: 2,
   },
+];
+
+// generic type
+type single<x> = x;
+const boos: single<string> = "Hasan Hafizur Rahman";
+
+// generic tuple
+
+type GenericType<X, Y> = [X, Y];
+const relation: GenericType<string, string> = ["Hasan", "Hafizur"];
+
+const tupleObject: GenericType<{ name: string; age: number }, string> = [
+  { name: "Hasan", age: 12 },
+  "Shanto",
 ];
