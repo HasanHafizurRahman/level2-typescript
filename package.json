@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "ts-node-dev --respawn --transpile-only src/module4-object/type-guard.ts",
+    "start": "ts-node-dev --respawn --transpile-only src/module4-object/access-modifiers.ts",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
